@@ -1,7 +1,10 @@
-# Custom project from Hilla
-
-This project can be used as a starting point to create your own Hilla application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+## Stack
+* Spring Boot,
+* Vaadin,
+* Hilla,
+* React,
+* TypeScript,
+* Java 11
 
 ## Running the application
 
@@ -23,29 +26,14 @@ Once the JAR file is built, you can run it using
 `java -jar target/myapp-1.0-SNAPSHOT.jar` (NOTE, replace
 `myapp-1.0-SNAPSHOT.jar` with the name of your jar).
 
-## Project structure
-
-<table style="width:100%; text-align: left;">
-  <tr><th>Directory</th><th>Description</th></tr>
-  <tr><td><code>frontend/</code></td><td>Client-side source directory</td></tr>
-  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>index.html</code></td><td>HTML template</td></tr>
-  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>index.ts</code></td><td>Frontend 
-entrypoint, bootstraps a React application</td></tr>
-  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>routes.tsx</code></td><td>React Router routes definition</td></tr>
-  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>MainLayout.tsx</code></td><td>Main 
-layout component, contains the navigation menu, uses <a href="https://hilla.dev/docs/react/components/app-layout">
-App Layout</a></td></tr>
-  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>views/</code></td><td>UI view 
-components</td></tr>
-  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>themes/</code></td><td>Custom  
-CSS styles</td></tr>
-  <tr><td><code>src/main/java/&lt;groupId&gt;/</code></td><td>Server-side 
-source directory, contains the server-side Java views</td></tr>
-  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>Application.java</code></td><td>Server entry-point</td></tr>
-</table>
-
 ## Useful links
 
 - Read the documentation at [hilla.dev/docs](https://hilla.dev/docs/).
-- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/hilla) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
-- Report issues, create pull requests in [GitHub](https://github.com/vaadin/hilla).
+- Spring Boot: [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)
+- Vaadin: [https://vaadin.com](https://vaadin.com)
+- React: [https://reactjs.org/](https://reactjs.org/)
+- TypeScript: [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+- Java 11: [https://www.oracle.com/java/technologies/javase-jdk11-downloads.html](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- Hilla: [https://hilla.dev](https://hilla.dev)
+- Other [start.spring.io](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.5.4&packaging=jar&jvmVersion=11&groupId=com.example&artifactId=myapp&name=myapp&description=Demo%20project%20for%20Spring%20Boot&packageName=com.example.myapp&dependencies=web,data-jpa,vaadin,devtools,postgresql,liquibase,security,oauth2,actuator,thymeleaf,webflux,reactor-netty,cloud-gateway,cloud-eureka,cloud-config-server,cloud-hystrix,cloud-feign,cloud-hystrix-dashboard,cloud-zuul,cloud-oauth2,cloud-security)
+
