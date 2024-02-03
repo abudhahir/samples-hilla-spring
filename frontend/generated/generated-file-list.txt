@@ -1,0 +1,7 @@
+CRMService.ts
+com/example/application/services/CRMService/CompanyRecord.ts
+com/example/application/services/CRMService/ContactRecord.ts
+connect-client.default.ts
+endpoints.ts
+com/example/application/services/CRMService/CompanyRecordModel.ts
+com/example/application/services/CRMService/ContactRecordModel.ts
